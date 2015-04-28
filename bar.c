@@ -4,7 +4,7 @@ void __attribute__((weak)) foo(){
 	printf("weak foo\n");
 }
 
-void __attribute__((used))bar(){
+void bar(){
         printf("strong bar from bar.c\n");
 }
 

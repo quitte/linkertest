@@ -8,7 +8,7 @@ void __attribute__((weak)) bar(){
         printf("weak bar from baz.c\n");
 }
 
-void __attribute__((used))baz(){
+void baz(){
         printf("strong baz from baz.c\n");
 }
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void __attribute__((used))foo(){
+void foo(){
 	printf("strong foo from foo.c\n");
 }
 
